@@ -14,7 +14,8 @@ if __name__ == "__main__":
 
 
 def filter_by_job_type(jobs, job_type):
-    return [job for job in jobs if (job["job_type"] == job_type)]
+    job_filter = [job for job in jobs if (job["job_type"] == job_type)]
+    return job_filter
 
 
 if __name__ == "__main__":
@@ -35,21 +36,8 @@ if __name__ == "__main__":
 
 
 def filter_by_industry(jobs, industry):
-    """Filters a list of jobs by industry
-
-    Parameters
-    ----------
-    jobs : list
-        List of jobs to be filtered
-    industry : str
-        Industry for the list filter
-
-    Returns
-    -------
-    list
-        List of jobs with provided industry
-    """
-    return []
+    job_filter = [job for job in jobs if job["industry"] == industry]
+    return job_filter
 
 
 def get_max_salary(path):

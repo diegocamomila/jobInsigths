@@ -44,3 +44,5 @@ https://www.w3schools.com/python/python_for_loops.asp
   tbm ja ordena a-z e 0-n
 
 - list()função cria um objeto de lista. Um objeto de lista é uma coleção que é ordenada e mutável.
+
+- != "" usado para considerar valores vazios -> != operador de diferente, "" vazio.

@@ -46,3 +46,11 @@ https://www.w3schools.com/python/python_for_loops.asp
 - list()função cria um objeto de lista. Um objeto de lista é uma coleção que é ordenada e mutável.
 
 - != "" usado para considerar valores vazios -> != operador de diferente, "" vazio.
+
+https://www.programiz.com/python-programming/methods/built-in/int
+https://www.programiz.com/python-programming/methods/built-in/isnumeric
+https://www.programiz.com/python-programming/methods/built-in/max
+
+- O int()método converte qualquer string, objeto semelhante a bytes ou um número para inteiro e retorna.
+- O isnumeric()método verifica se todos os caracteres da string são numéricos.
+- A max()função retorna o maior item em um iterável. Também pode ser usado para encontrar o maior item entre dois ou mais parâmetros.

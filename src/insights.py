@@ -64,11 +64,12 @@ def filter_by_industry(jobs, industry):
 
 def get_max_salary(path):
     all_jobs = read(path)
-    max_salaries = set()
-    for job in all_jobs:
-        if job["max_salary"] != "":
-            max_salaries.add(job["max_salary"])
-    return list(max_salaries)
+    max_salaries = [
+        int(job["max_salary"], 10)
+        for job in all_jobs
+        if job["max_salary"].isnumeric()
+    ]
+    return max(max_salaries)
 
 
 if __name__ == "__main__":

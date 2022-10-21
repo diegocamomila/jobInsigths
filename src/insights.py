@@ -77,21 +77,17 @@ if __name__ == "__main__":
 
 
 def get_min_salary(path):
-    """Get the minimum salary of all jobs
+    all_jobs = read(path)
+    min_salaries = [
+        int(job["min_salary"], 10)
+        for job in all_jobs
+        if job["min_salary"].isnumeric()
+    ]
+    return min(min_salaries)
 
-    Must call `read`
 
-    Parameters
-    ----------
-    path : str
-        Must be passed to `read`
-
-    Returns
-    -------
-    int
-        The minimum salary paid out of all job opportunities
-    """
-    pass
+if __name__ == "__main__":
+    print(get_min_salary("src/jobs.csv"))
 
 
 def matches_salary_range(job, salary):

@@ -54,3 +54,4 @@ https://www.programiz.com/python-programming/methods/built-in/max
 - O int()método converte qualquer string, objeto semelhante a bytes ou um número para inteiro e retorna.
 - O isnumeric()método verifica se todos os caracteres da string são numéricos.
 - A max()função retorna o maior item em um iterável. Também pode ser usado para encontrar o maior item entre dois ou mais parâmetros.
+- A min()função retorna o item com o valor mais baixo ou o item com o valor mais baixo em um iterável.

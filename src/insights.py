@@ -5,7 +5,7 @@ def get_unique_job_types(path):
     all_jobs = read(path)
     jobs_types = set()
     for job in all_jobs:
-        jobs_types.add(job["jobs_types"])
+        jobs_types.add(job["job_type"])
     return list(jobs_types)
 
 
@@ -75,6 +75,7 @@ def matches_salary_range(job, salary):
         and type(salary) == int
         and job["min_salary"] < job["max_salary"]
     ):
+        # print(job)
         return job["min_salary"] <= salary <= job["max_salary"]
     else:
         raise ValueError("chaves não informadas")

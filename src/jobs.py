@@ -17,5 +17,5 @@ def read(path):
 # noqa linha 39 como minha funçao é read ou seja ela vai ler no caso um caminho path eu estou
 # noqa passando e com a possiçao 0 pq sei que é uma lista, mas se eu nao sei o que é eu
 # noqa nao passo a possiçao para ver o que esta trazendo
-if __name__ == "__main__":
-    print(read("src/jobs.csv")[0])
+# if __name__ == "__main__":
+#     print(read("src/jobs.csv")[0])

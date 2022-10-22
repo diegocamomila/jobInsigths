@@ -2,4 +2,4 @@
 
 
 def test_counter():
-    pass
+# assert count_ocurrences("src/jobs.csv", 'word')

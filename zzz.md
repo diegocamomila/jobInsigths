@@ -59,3 +59,8 @@ https://www.programiz.com/python-programming/methods/built-in/max
 - pass é usada como um espaço reservado para código futuro. Quando a passinstrução é executada, nada acontece, mas você evita obter um erro quando o código vazio não é permitido. Código vazio não é permitido em loops, definições de função, definições de classe ou em instruções if.
 
 - assert A instrução do Python assertpermite que você escreva verificações de sanidade em seu código. Essas verificações são conhecidas como asserções e você pode usá-las para testar se certas suposições permanecem verdadeiras enquanto você desenvolve seu código.
+
+https://docs.python.org/3/library/operator.html
+
+operator.itemgetter( \* itens )
+Retorna um objeto que pode ser chamado que busca o item de seu operando usando o **getitem**()método do operando. Se vários itens forem especificados, retornará uma tupla de valores de pesquisa.
